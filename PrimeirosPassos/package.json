@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/index.ts",
     "start": "node build/index.js",
-    "build": "rimraf build && tsc"
+    "build": "rimraf build && tsc",
+    "watch": "tsc --watch"
   },
   "keywords": [
     "Curso",
@@ -14,7 +15,7 @@
   ],
   "author": "Sabrina Vidal",
   "license": "ISC",
-  "description": "Curso de férias da Faculdade SENACy",
+  "description": "Curso de férias da Faculdade SENAC",
   "devDependencies": {
     "ts-node-dev": "^2.0.0",
     "tsx": "^4.16.2"
